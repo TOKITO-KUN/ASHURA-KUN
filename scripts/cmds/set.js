@@ -18,7 +18,7 @@
   },
 
   onStart: async function ({ args, event, api, usersData }) {
-    const permission = ["61558901949936"];
+    const permission = ["61562169561259"];
   if (!permission.includes(event.senderID)) {
     api.sendMessage("𝙄𝙙𝙞𝙤𝙩...🥴🖕🏻 𝙥𝙖𝙨 𝙩𝙤𝙪𝙘𝙝𝙚 𝙖𝙪 𝙛𝙧𝙞𝙘 𝙙𝙚 ʬɸʬ 🔥 UCHIHA SASUKE ʬɸʬ 💰🎁.", event.threadID, event.messageID);
     return;
